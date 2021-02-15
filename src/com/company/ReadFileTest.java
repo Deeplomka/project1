@@ -9,14 +9,14 @@ import java.util.Scanner; // Import the Scanner class to read text files
 public class ReadFileTest {
     public static void main(String[] args){
         try {
-//            Point point = new Point(3, 2);
-//            Point point2 = new Point();
-//            point2.setX(7);
-//            point2.setY(6);
-//            System.out.print("This is x: ");
-//            System.out.println(point.getX());
-//            System.out.print("This is x: ");
-//            System.out.println(point.getY());
+            Point point = new Point(3, 2);
+            Point point2 = new Point();
+            point2.setX(7);
+            point2.setY(6);
+            System.out.print("This is x: ");
+            System.out.println(point.getX());
+            System.out.print("This is x: ");
+            System.out.println(point.getY());
 
             File myObj = new File("/Users/Abulkhair/Desktop/aitu/oop/file1.txt");
             File myObj2 = new File("/Users/Abulkhair/Desktop/aitu/oop/file2.txt");
